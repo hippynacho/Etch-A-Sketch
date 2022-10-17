@@ -5,11 +5,9 @@
   
   #container {
     display: grid;
-    grid-gap: 1px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    height: 100vh;
-    width: auto;
+    min-height: 100vh;
   }
   
   .grid-item {
@@ -20,5 +18,5 @@
   }
 
   .active {
-    background-color: cyan;
+    background-color: aquamarine;
   }
